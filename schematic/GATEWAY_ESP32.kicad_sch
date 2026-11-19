@@ -1,0 +1,206 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "97bad12b-0964-42c4-ad61-a4f1287b0398")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 193.04 24.765)
+		(size 62.865 38.735)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "779bf1a6-f474-470e-b1a2-d5b5d3c7d4de")
+		(property "Sheetname" "RS485"
+			(at 193.04 23.4184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.54 2.54)
+					(thickness 0.508)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RS485.kicad_sch"
+			(at 193.04 64.0846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "GATEWAY_ESP32"
+				(path "/97bad12b-0964-42c4-ad61-a4f1287b0398"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 24.765 24.13)
+		(size 59.69 39.37)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "cdc2c474-1e4c-479f-81a8-e7b25f6028a9")
+		(property "Sheetname" "Power and USB TTL"
+			(at 24.765 22.7834 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.54 2.54)
+					(thickness 0.508)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 24.765 64.0846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "GATEWAY_ESP32"
+				(path "/97bad12b-0964-42c4-ad61-a4f1287b0398"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 24.765 81.915)
+		(size 59.055 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ed22f724-d4e2-4b8a-8c8b-318595005e55")
+		(property "Sheetname" "Ethernet (W5500)"
+			(at 24.765 80.5684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.54 2.54)
+					(thickness 0.508)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Ethernet (W5500).kicad_sch"
+			(at 24.765 124.4096 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "GATEWAY_ESP32"
+				(path "/97bad12b-0964-42c4-ad61-a4f1287b0398"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 107.95 24.13)
+		(size 59.055 39.37)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "fefca27a-da6d-4864-b89e-e9743a8e08f8")
+		(property "Sheetname" "MCU_ESP32"
+			(at 107.95 22.7834 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.54 2.54)
+					(thickness 0.508)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU_EPS32.kicad_sch"
+			(at 107.95 64.0846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "GATEWAY_ESP32"
+				(path "/97bad12b-0964-42c4-ad61-a4f1287b0398"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
